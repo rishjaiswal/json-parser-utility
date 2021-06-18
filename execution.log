@@ -1,0 +1,71 @@
+Run as App.java : 
+
+Executing TC -netAssetAPI()
+Value on : 20190106 of ABC Corporation is 396569.3
+Value on : 20190106 of XYZ Private Limited is 155292.6
+Value on : 20190106 of Apples and Oranges is 42430.72
+Value on : 20190106 of Apples and Oranges is 265523.49
+Value on : 20190106 of Apples and Oranges is 62651.61
+
+
+Run as Junit Test : 
+
+Executing TC -testTimeAPI()
+06-18-2021
+12:57:15 PM
+1624021035133
+Executing TC -testCowinDistrictAPI()
+Bagalkot
+District List for getAllDistricts() : 
+ Bagalkot Bangalore Rural Bangalore Urban BBMP Belgaum Bellary Bidar Chamarajanagar Chikamagalur Chikkaballapur Chitradurga Dakshina Kannada Davanagere Dharwad Gadag Gulbarga Hassan Haveri Kodagu Kolar Koppal Mandya Mysore Raichur Ramanagara Shimoga Tumkur Udupi Uttar Kannada Vijayapura Yadgir
+
+
+Run as Maven Test : 
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------< com.rishabh.jsonparserutility:JSON-Parser-Utlity >----------
+[INFO] Building JSON-Parser-Utlity 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ JSON-Parser-Utlity ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory JSON-Parser-Utlity/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ JSON-Parser-Utlity ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 11 source files to JSON-Parser-Utlity/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ JSON-Parser-Utlity ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /JSON-Parser-Utlity/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ JSON-Parser-Utlity ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ JSON-Parser-Utlity ---
+[INFO] Surefire report directory: JSON-Parser-Utlity/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.rishabh.jsonparserutility.AppTest
+Executing TC -testCowinDistrictAPI()
+Bagalkot
+District List for getAllDistricts() : 
+ Bagalkot Bangalore Rural Bangalore Urban BBMP Belgaum Bellary Bidar Chamarajanagar Chikamagalur Chikkaballapur Chitradurga Dakshina Kannada Davanagere Dharwad Gadag Gulbarga Hassan Haveri Kodagu Kolar Koppal Mandya Mysore Raichur Ramanagara Shimoga Tumkur Udupi Uttar Kannada Vijayapura Yadgir
+Executing TC -testTimeAPI()
+06-18-2021
+12:57:57 PM
+1624021077558
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.911 sec
+
+Results :
+
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  7.033 s
+[INFO] Finished at: 2021-06-18T18:27:57+05:30
+[INFO] ------------------------------------------------------------------------
