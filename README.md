@@ -42,5 +42,7 @@ To Run the Tests in either of below ways :
 - Gson has two output modes: compact and pretty. 
   // Gson gson = new GsonBuilder().setPrettyPrinting().create()
 - Gson by default does not serialize fields with null values to JSON. If a field in a Java object is null, Gson excludes it. We can force Gson to serialize null values via the GsonBuilder by using serializeNulls() method.
+- @Expose annotation indicates that a member should be exposed for JSON serialization or deserialization. 
+The @Expose annotation can take two boolean parameters: serialize and deserialize. The @Expose annotation must be explicitly enabled with excludeFieldsWithoutExposeAnnotation() method.
 
 Reference NOTE : https://zetcode.com/java/gson/
